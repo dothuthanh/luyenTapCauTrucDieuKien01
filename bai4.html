@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [];
+let x =prompt('nhap so thu1');
+let y = prompt('nhap so thu2');
+let z = prompt('nhap so thu3');
+let vitri = 0;
+arr.push(x,y,z);
+    let max = arr[0]
+    for (let i = 0; i < arr.length; i++) {
+        if (max < arr[i]) {
+            max = arr[i];
+            vitri = i;
+        }
+    }
+    alert("gia tri lon nhat" + max + " vi tri la " + vitri )
+</script>
+</body>
+</html>
